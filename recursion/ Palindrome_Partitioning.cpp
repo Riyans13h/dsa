@@ -53,7 +53,7 @@ public:
             }
         }
     }
-
+    int main(){
     // Main function to return all palindrome partitions of string s
     vector<vector<string>> partition(string s) {
         vector<string> output;             // Stores current partition being built
@@ -61,4 +61,5 @@ public:
         solvePalindrome(0, output, ans, s); // Start the recursive backtracking
         return ans;
     }
+}
 };
