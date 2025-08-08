@@ -61,7 +61,7 @@ public:
 
 /*giit 
 Time Complexity: O(n), where n is the number of customers (size of bills array)
-Space Complexity: O(1), only fixed counters
+Space Complexity: O(1), 
 */
 ```
 
